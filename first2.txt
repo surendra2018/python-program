@@ -1,0 +1,5 @@
+print("Hey Guys,")
+d = "My Name is Sonu"   #define string in a variable
+print(d+" Kumar ")
+a,b,c, = "I am learning","Python"," and i am at began phase"
+print(a,b,c)

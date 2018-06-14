@@ -1,0 +1,11 @@
+#Date - 14/06/2018
+#Author - Surendra
+
+#print a string
+print("This is my first program")
+
+a,b = "Hey Python ","There "
+print(a,b)   #use for print string which store in a variable
+print(a[4:10])
+print(b*2)      # print a string number of times here it is two
+print(b+" PYTHON LEARN")
