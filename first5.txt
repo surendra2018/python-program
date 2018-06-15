@@ -1,0 +1,18 @@
+#CREATING LIST IN PYTHON
+
+#DIFINE A LIST
+#HOMOGENOUS LISTS IN PYTHON
+name = "INTEGERS LISTS"
+A = [10,20,30,40,50,60]
+print(name)
+print(A)
+
+name1 = "FLOATS LISTS"
+B = [1.5,2.6,4.5,7.8,9.8]
+print(name1)
+print(B)
+
+name2 = "STRINGS LIST"
+C = ['abc','cde','fgh','ijk']
+print(name2)
+print(C)
