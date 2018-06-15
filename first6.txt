@@ -1,0 +1,13 @@
+#USING SLICING OPERATOR IN LIST IN PYTHON
+#DATE = 15/06/2018
+#AUTHOR = SURENDRA
+
+A = [10,20,30,40,50]
+print(A[1:4])         #define logic for slicing operator
+
+B = [2.4,5.6,8.03,4.8]
+print(B[1:3])          #define logic for slicing operator
+
+C = [10,'Hey',30.89,'Surendra']
+print(C[1:2])           #define logic for slicing operator
+print(C[3:])

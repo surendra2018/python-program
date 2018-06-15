@@ -1,0 +1,35 @@
+#CREATING A LIST IN DICTIONARY IN PYTHON
+#DATE = 15/06/2018
+#AUTHOR = SURENDRA
+
+Student = {'Name':'Surendra',
+           'Collage':'MITS',
+           'Course':['Python','Compiler Design','Cloud Computing','Network Security'],
+           'Year':3
+          }
+
+Student1 = {'Name':'Arvind',
+            'Collage':'MPCT',
+            'Course':['JAVA','Compiler Design','Cloud Computing','Network Security'],
+            'Year':3
+           }
+
+Student2 = {'Name':'Lata',
+            'Collage':'iiitm',
+            'Course':['Dotnet','Compiler Design','Cloud Computing','Network Security'],
+            'Year':3
+           }
+           
+Student3 = {'Name':'Sanjiv',
+            'Collage':'MITS',
+            'Course':['Android App Development','Compiler Design','Cloud Computing','Network Security'],
+            'Year':3
+           }
+
+Student4 = {'Name':'Vikash',
+            'Collage':'MITS',
+            'Course':['Web Development','Compiler Design','Cloud Computing','Network Security'],
+            'Year':3
+           }
+Stlist = [Student,Student1,Student2,Student3,Student4]
+print(Stlist)

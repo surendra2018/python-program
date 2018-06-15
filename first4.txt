@@ -1,3 +1,7 @@
+#CREATING A DICTIONARY IN PYTHON
+#DATE = 15/06/2018
+#AUTHOR = Surendra
+
 student = {'name':'Surendra',
            'collage':'MITS',
            'course':'Python',
@@ -5,18 +9,16 @@ student = {'name':'Surendra',
           }
 
 student1 = {'name':'Arvind',
-           'collage':'MPCT',
-           'course':'JAVA',
-           'year':3
-          }
+            'collage':'MPCT',
+            'course':'JAVA',
+            'year':3
+           }
 
 student2 = {'name':'Lata',
-           'collage':'iiitm',
-           'course':'dotnet',
-           'year':3
-          }
+            'collage':'iiitm',
+            'course':'dotnet',
+            'year':3
+           }
 
 stlist = [student,student1,student2]
 print(stlist)
-#student['name'] = student['name']+' Kumar'
-#print(student)

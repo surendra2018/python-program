@@ -1,0 +1,22 @@
+#UPDATING LIST OR ELEMENT OF LIST IN BETWEEN RUNNING PROGRAM
+
+#DATE = 15/06/2018
+#AUTHOR = SURENDRA
+
+print("Define list")
+mylist = [10,"Surendra",4.7,"Super"]
+print(mylist)
+
+#code for update mylist
+#operation which perform
+#10 = 14
+#surendra = Surendra Kumar
+#And Super = Super Man
+
+print("Updated list")
+mylist[0] = mylist[0]+4
+mylist[1] = mylist[1]+' Kumar'
+mylist[3] = mylist[3]+' Man'
+
+#print update list
+print(mylist)

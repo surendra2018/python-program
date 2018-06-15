@@ -1,0 +1,34 @@
+#UPDATING DICTIONARY IN PYTHON
+#DATE = 15/06/2018
+#AUTHOR = SURENDRA
+
+#imagin you make dictionary for shop of some product
+Product1 = {'Name':'Sugar',
+           'Quantity':2        #quantiy in KG
+          }
+
+Product2 = {'Name':'Salt',
+            'Quantity':1        #quantiy in KG
+           }
+Product3 = {'Name':'Soap',
+            'Quantity':3        #quantiy in packet
+           }
+products = [Product1,Product2,Product3]
+print(products)
+
+
+ #you forget to add product type name
+
+#Updating Product1
+Product1['Name'] = Product1['Name']+' (BROWN)'
+Product1['Quantity'] = Product1['Quantity']+8
+
+#Updating Product2
+Product2['Name'] = Product2['Name']+' (TATA)'
+Product2['Quantity'] = Product2['Quantity']+9
+
+#Updating Product3
+Product3['Name'] = Product3['Name']+' (Godrej)'
+Product3['Quantity'] = Product3['Quantity']+7
+
+print(products)

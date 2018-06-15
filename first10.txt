@@ -1,0 +1,22 @@
+student = {'name':'Surendra',
+           'collage':'MITS',
+           'course':'Python',
+           'year':3
+          }
+
+student1 = {'name':'Arvind',
+           'collage':'MPCT',
+           'course':'JAVA',
+           'year':3
+          }
+
+student2 = {'name':'Lata',
+           'collage':'iiitm',
+           'course':'dotnet',
+           'year':3
+          }
+
+stlist = [student,student1,student2]
+#print(stlist)
+student['name'] = student['name']+' Kumar'
+print(student)
